@@ -12,7 +12,7 @@ from openpyxl.styles import Alignment
 from openpyxl.worksheet import dimensions
 
 
-def cls():                          # this is to refresh screen
+def cls():                          # this is to refresh screen.
     if os.name == 'posix':          # if os is macos or linux
         _ = os.system('clear')
     else:
